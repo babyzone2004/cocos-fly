@@ -5,8 +5,18 @@
 library/
 temp/
 local/
-build/
 node_modules
+assets
+build-templates
+library
+local
+packages
+settings
+temp
+.eslintrc.js
+gulpfile.js
+mangle_prop.json
+release.sh
 
 #/////////////////////////////////////////////////////////////////////////////
 # Logs and databases
