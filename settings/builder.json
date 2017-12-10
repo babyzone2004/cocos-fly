@@ -1,0 +1,30 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [
+    "0e82be96-6039-4c45-b297-7257389f31c9"
+  ],
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.demo-ui-master",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "de6d47e5-011f-4c10-a385-1cd318777662",
+  "title": "demo-ui-master",
+  "webOrientation": "auto"
+}
