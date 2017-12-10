@@ -29,7 +29,7 @@ gulp.task("imagemin", ["cp-src"], function (cb) {
 gulp.task("prefix-css", ["imagemin"], function (cb) {
     gulp.src(["./build/web-mobile/style-mobile.css"])
         // .pipe(urlPrefixer.css({
-        //     prefix: "https://gamestatic.kkmh.com/cocos_sample"
+        //     prefix: "http://yp_cdn.zz-game.com"
         // }))
         .pipe(gulp.dest("./build/web-mobile/")
             .on("end", cb));
@@ -81,7 +81,7 @@ gulp.task("obfuscator", ["htmlmin"], function (cb) {
             debugProtection: false,
             debugProtectionInterval: false,
             disableConsoleOutput: false,
-            domainLock: [".kkmh.com"],
+            domainLock: [".zz-game.com"],
             mangle: true,
             renameGlobals: false,
             rotateStringArray: true,
@@ -113,7 +113,7 @@ gulp.task("default", ["resRev"], function (cb) {
             replaceReved: true
         }))
         // .pipe(urlPrefixer.html({
-        //     prefix: "https://gamestatic.kkmh.com/cocos_sample"
+        //     prefix: "http://yp_cdn.zz-game.com"
         // }))
         .pipe(gulp.dest("./build/web-mobile/")
             .on("end", cb));
