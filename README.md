@@ -12,6 +12,6 @@
 
 https://www.lagou.com/jobs/3921325.html?source=pl&i=pl-0
 
-查看招聘详情或者直接投递简历到：
+者直接投递简历到：
 
 cp-gamedev@kkworld.com
