@@ -1,8 +1,13 @@
 {
+  "cocos2d-js-min-399c079601.js": "cocos2d-js-min-399c079601-399c079601.js",
   "cocos2d-js-min.js": "cocos2d-js-min-399c079601.js",
+  "main-50c3d9a7ec.js": "main-50c3d9a7ec-fd170504e3.js",
   "main.js": "main-50c3d9a7ec.js",
-  "project.js": "project-32d951fdf1.js",
+  "project-32d951fdf1.js": "project-32d951fdf1-32d951fdf1.js",
+  "project.js": "project-0368329f0c.js",
+  "settings-26c2b957cb.js": "settings-26c2b957cb-26c2b957cb.js",
   "settings.js": "settings-26c2b957cb.js",
+  "splash-e4d5086e2b.png": "splash-e4d5086e2b-e4d5086e2b.png",
   "splash.png": "splash-e4d5086e2b.png",
   "src/project.js": "src/project-a4b8b03e5d.js",
   "src/settings.js": "src/settings-26c2b957cb.js"
