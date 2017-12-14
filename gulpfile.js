@@ -40,7 +40,7 @@ gulp.task("obfuscator", ["htmlmin"], function (cb) {
             deadCodeInjection: false,
             debugProtection: false,
             debugProtectionInterval: false,
-            disableConsoleOutput: true,
+            disableConsoleOutput: false,
             domainLock: [".zz-game.com"],
             mangle: true,
             renameGlobals: false,
