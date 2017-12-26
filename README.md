@@ -4,7 +4,7 @@
 2. 执行命令`npm install`
 3. 执行命令：`sh releash`
 
-本代码在Cocos Creator 1.6.1下测试通过
+本代码在Mac平台，Cocos Creator 1.6.1下测试通过
 
 # 诚聘英才
 
