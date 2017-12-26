@@ -46,7 +46,7 @@ gulp.task("obfuscator", ["htmlmin"], function (cb) {
             renameGlobals: false,
             rotateStringArray: true,
             seed: 0,
-            selfDefending: true,
+            selfDefending: false,
             stringArrayEncoding: false,
             stringArray: true,
             target: "browser",

@@ -1,6 +1,6 @@
 # **use**
 
-1. 安装nodejs
+1. 安装nodejs，gulp环境
 2. 执行命令`npm install`
 3. 执行命令：`sh releash`
 
