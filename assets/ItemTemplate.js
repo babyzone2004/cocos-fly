@@ -14,5 +14,10 @@ cc.Class({
         this.icon.spriteFrame = data.iconSF;
         this.itemName.string = data.itemName;
         this.itemPrice.string = data.itemPrice;
+        let a = wx.createImage();
+        a.src = "http://7te819.com1.z0.glb.clouddn.com/demo.png";
+        a.onload = function () {
+            console.log(a);
+        };
     }
 });

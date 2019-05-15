@@ -1,16 +1,15 @@
 {
   "appKey": "",
   "appSecret": "",
+  "encryptJs": true,
   "excludeScenes": [
     "0e82be96-6039-4c45-b297-7257389f31c9"
   ],
   "includeAnySDK": false,
   "includeSDKBox": false,
-  "includeSdk": [
-    "anysdk"
-  ],
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
   "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
@@ -24,7 +23,13 @@
   "packageName": "org.cocos2d.demo-ui-master",
   "privateKey": "",
   "renderMode": "0",
-  "startScene": "de6d47e5-011f-4c10-a385-1cd318777662",
+  "startScene": "507e179d-c947-4043-a1ba-707a34464c17",
   "title": "demo-ui-master",
-  "webOrientation": "auto"
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx3eeb39f548437a34",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "74e0b56e-3eb1-45",
+  "zipCompressJs": true
 }

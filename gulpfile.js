@@ -12,7 +12,7 @@ gulp.task("cp-src", function (cb) {
         .pipe(gulp.dest("./build/web-mobile/")
             .on("end", cb));
 });
-gulp.task("imagemin", ["cp-src"], function (cb) {
+gulp.task("imagemin", function (cb) {
     gulp.src(["./build/web-mobile/**/*.png"])
         .pipe(imagemin([
             imagemin.gifsicle({interlaced: true}),
